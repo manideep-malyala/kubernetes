@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    dc: US
+    team: t2
+  name: "p4"
+spec:
+  containers:
+    - name: "myweb"
+      image: "httpd:latest"
